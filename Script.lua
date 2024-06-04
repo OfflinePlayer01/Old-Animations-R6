@@ -1,3 +1,15 @@
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Script By 917Dream 〰";
+        Text = "〰 My Discord Name : _offlineplayer_ 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 5;
+
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Old Animations Script R6 Loaded 〰";
+        Text = "〰 Enjoy 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 5;
+
 function waitForChild(parent, childName)
 	local child = parent:findFirstChild(childName)
 	if child then return child end
